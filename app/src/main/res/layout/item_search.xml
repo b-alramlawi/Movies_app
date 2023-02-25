@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="item"
+            type="com.octopus.moviesapp.ui.search.uistate.SearchResultUiState" />
+        <variable
+            name="listener"
+            type="com.octopus.moviesapp.ui.search.SearchClicksListener" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="0dp"
+        android:onClick="@{() -> listener.onItemClick(item.id)}"
+        app:cardCornerRadius="@dimen/space6x"
+        android:layout_margin="@dimen/space4x">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                app:imageUrl="@{item.imageUrl}"
+                tools:src="@drawable/ic_launcher_background"
+                android:contentDescription="@string/tv_show_image_description" />
+
+            <TextView
+                android:id="@+id/text_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:maxLines="2"
+                android:text="@{item.name}"
+                style="@style/text_style_body_medium"
+                tools:text="Family Guy" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

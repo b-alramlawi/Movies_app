@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.octopus.moviesapp.ui.home.HomeViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+
+        <LinearLayout
+            android:id="@+id/top_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center_vertical"
+            android:paddingVertical="@dimen/space4x"
+            android:paddingHorizontal="@dimen/space8x"
+            android:background="@color/surface">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/octopus_movies"
+                android:textColor="@color/primary"
+                style="@style/text_style_body_large"
+                android:layout_marginEnd="@dimen/space8x"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingVertical="@dimen/space4x"
+                android:paddingHorizontal="@dimen/space8x"
+                android:text="@string/Search"
+                android:textColor="#5CC5245B"
+                android:textAlignment="textStart"
+                style="@style/text_style_label_large"
+                android:background="@drawable/search_shape"
+                android:onClick="@{()-> viewModel.onSearchClick()}"
+                app:tint="@color/secondary"
+                app:drawableEndCompat="@drawable/ic_search" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_zero"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintTop_toBottomOf="@id/top_app_bar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            showIfTrue="@{viewModel.homeMainUiState.isSuccess}"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            showIfTrue="@{viewModel.homeMainUiState.isLoading}"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:indeterminateTint="@color/primary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/background"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/top_app_bar"
+            showIfTrue="@{viewModel.homeMainUiState.isError}"
+            tools:ignore="UseCompoundDrawables">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_no_mobile_internet"
+                android:layout_width="@dimen/size_lottie"
+                android:layout_height="@dimen/size_lottie"
+                android:layout_margin="@dimen/space4x"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="false"
+                app:lottie_rawRes="@raw/no_internet" />
+
+            <TextView
+                style="@style/text_style_body_large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="@string/oops"
+                android:textAlignment="center"
+                android:textColor="@color/font_primary_color"
+                android:textSize="22sp" />
+
+            <TextView
+                style="@style/text_style_body_large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/error"
+                android:text="@string/unknown_error" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space8x"
+                android:onClick="@{()->viewModel.tryToFetchDataAgain()}"
+                android:text="@string/retry"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
