@@ -42,7 +42,7 @@ Splach | Home | Question | Helper
   
   ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
-- [RxJava](https://github.com/ReactiveX/RxJava) - Java VM implementation of Reactive Extensions: a library for composing asynchronous and event-based programs by using observable sequences.
+- [Kotlin Coroutines]([https://github.com/ReactiveX/RxJava](https://kotlinlang.org/docs/coroutines-overview.html)) - Kotlin Coroutines simplify asynchronous programming in Kotlin, offering a concise and readable way to write non-blocking code.
 - [Retrofit](https://github.com/square/retrofit) - A type-safe HTTP client for Android and Kotlin.
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
 - [Jetpack Navigation](https://developer.android.com/jetpack/compose/navigation) - Navigation refers to the interactions that allow users to navigate across, into, and back out from the different pieces of content within your app
