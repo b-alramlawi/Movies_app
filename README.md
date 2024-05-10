@@ -19,9 +19,9 @@ Splach | Login | Home | Movies
 --- | --- | --- | --- |
 ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/352362f6-6ed4-44a5-9abb-db4d5cba86ac) | ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/bb8ba3a2-aa19-4c07-a8da-5dd7aa07c68c) | ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/b2f9d694-9a65-4a9f-9fcc-065b33222c7a) | ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/e5a5be3b-363f-4960-abee-387b2cbe6a96)
 
-| losing | Win | Top result | About
+| Tv Shows | Details | Profile | Genre
 --- | --- | --- | --- |
- ![](https://i.ibb.co/Z65K3vV/photo-2022-09-09-14-30-49.jpg) | ![](https://i.ibb.co/thMfm4B/photo-2022-09-09-14-34-09.jpg) | ![](https://i.ibb.co/ZN91kP7/photo-2022-09-09-14-36-06.jpg) | ![](https://i.ibb.co/k98H6xP/photo-2022-09-09-14-29-40.jpg)
+ ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/44484873-5a97-4277-860b-4a66733b7418) | ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/d09cfa71-aaa0-4174-a889-f84df8e51b56) | ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/fc62317d-82d8-4314-99d7-11e9fb1e28bd) | ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/73616eff-f11f-4bf9-98e7-106d63cfaebe)
 <br />
  
   
