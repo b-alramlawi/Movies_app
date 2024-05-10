@@ -15,9 +15,9 @@ Welcome to Movie App, your ultimate movie companion! Dive into a world of cinema
 <br />
 
 ## App Images 
-Splach | Login | Question | Helper
+Splach | Login | Home | Movies
 --- | --- | --- | --- |
-![](https://github.com/b-alramlawi/Movies_app/assets/63581864/352362f6-6ed4-44a5-9abb-db4d5cba86ac) | ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/bb8ba3a2-aa19-4c07-a8da-5dd7aa07c68c) | ![](https://i.ibb.co/fvcZyLb/photo-2022-09-09-14-28-47.jpg) | ![](https://i.ibb.co/sJnQwCC/photo-2022-09-09-14-29-32.jpg)
+![](https://github.com/b-alramlawi/Movies_app/assets/63581864/352362f6-6ed4-44a5-9abb-db4d5cba86ac) | ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/bb8ba3a2-aa19-4c07-a8da-5dd7aa07c68c) | ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/b2f9d694-9a65-4a9f-9fcc-065b33222c7a) | ![](https://github.com/b-alramlawi/Movies_app/assets/63581864/e5a5be3b-363f-4960-abee-387b2cbe6a96)
 
 | losing | Win | Top result | About
 --- | --- | --- | --- |
