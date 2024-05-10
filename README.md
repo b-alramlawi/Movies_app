@@ -11,11 +11,7 @@
 <br />
 
 ## Overview 
-This game is a simulation of one of the famous TV shows in the world (The Millionaire). We hope that you like this simulation in all its details except for the million dollars. We are a group of bankrupts... I mean programmers. We made this game as one of the lessons of the chance course. \n I hope you enjoy with us.
-- Enthusiastic atmosphere to answer questions.
-- The competition to win a million dollars.
-- Change the question as an aid.
-- Delete two answers to make it easier to play.
+Welcome to Movie App, your ultimate movie companion! Dive into a world of cinema with our app, where you can explore, discover, and enjoy movies like never before. From classic films to the latest releases, Movie App has you covered. Get access to a vast library of movies, curated lists, and personalized recommendations based on your preferences. Stay up-to-date with the latest news, trailers, and reviews. Whether you're a casual viewer or a die-hard cinephile, Movie App is your go-to app for all things movies. Start exploring today and let the magic of cinema unfold!
 <br />
 
 ## App Images 
