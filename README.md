@@ -17,7 +17,8 @@ Welcome to Movie App, your ultimate movie companion! Dive into a world of cinema
 ## App Images 
 Splach | Home | Question | Helper
 --- | --- | --- | --- |
-![](https://i.ibb.co/Rv8TLG4/photo-2022-09-09-14-28-32.jpg) | ![](https://i.ibb.co/kQhHcpQ/photo-2022-09-09-14-28-44.jpg) | ![](https://i.ibb.co/fvcZyLb/photo-2022-09-09-14-28-47.jpg) | ![](https://i.ibb.co/sJnQwCC/photo-2022-09-09-14-29-32.jpg)
+![](![a1](https://github.com/b-alramlawi/Movies_app/assets/63581864/352362f6-6ed4-44a5-9abb-db4d5cba86ac)
+) | ![](https://i.ibb.co/kQhHcpQ/photo-2022-09-09-14-28-44.jpg) | ![](https://i.ibb.co/fvcZyLb/photo-2022-09-09-14-28-47.jpg) | ![](https://i.ibb.co/sJnQwCC/photo-2022-09-09-14-29-32.jpg)
 
 | losing | Win | Top result | About
 --- | --- | --- | --- |
